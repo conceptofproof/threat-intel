@@ -7,9 +7,6 @@ def find(name, path):
         if name in files:
           return os.path.join(root, name)
 
-def locateip(ip):
- return  record_by_addr
-
 try:
   gi = pygeoip.GeoIP('/home/rh0gue/Downloads/GeoLiteCity.dat')
 except:
